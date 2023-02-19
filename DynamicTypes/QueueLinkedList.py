@@ -1,4 +1,4 @@
-from DynamicTypes import LinkedList, Node
+from DynamicTypes.LinkedList import LinkedList, Node
 
 class Queue:
     def __init__(self):
