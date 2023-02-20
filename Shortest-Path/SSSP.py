@@ -4,7 +4,7 @@ class Graph:
             gdict = {}
         self.gdict = gdict
     
-    def sssp(self, start, end):
+    def bfs(self, start, end):
         queue = []
         queue.append([start])
         while queue:
